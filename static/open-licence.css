@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+background-color:ffffff;
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size:0.75em;
+line-height:150%;
+margin:0px auto;
+
+}
+
+#hdr  {
+background-color:#FFFFFF;
+clear:both;
+display:inline-block;
+margin:6px 0 !important;
+padding:0 !important;
+
+}
+
+#licence-logo-holder	{
+float:left;
+padding:20px 0px 0px 20px;
+}
+
+#tna-logo-holder	{
+float:right;
+text-align:right;
+padding:20px 20px 0px 80px;
+
+}
+
+#license  {
+background:url("/images/global/body-bg.jpg") repeat scroll center top transparent;
+margin:0px auto;
+padding:0px 14px 100px 14px;
+width:960px;
+
+
+
+}
+
+
+#back-to-tna  {
+background-color:#FFF;
+margin:5px auto;
+padding:10px 20px 10px 10px;
+text-align:right;
+width:740px;
+
+}
+
+ul.tick  {
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+
+}
+
+ul.tick li  {
+background:url("/images/infoman/licence-tick.gif") 0px 5px no-repeat;
+margin-left:12px;
+margin-right:12px;
+padding: 5px 0px 10px 40px;
+line-height:200%;
+
+}
+
+ul.redex  {
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+
+}
+
+ul.redex li  {
+background:url("/images/infoman/licence-redex.gif") 0px 5px no-repeat;
+margin-left:12px;
+margin-right:12px;
+padding: 5px 0px 10px 40px;
+line-height:200%;
+
+}
+
+ul.warn  {
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+
+}
+
+ul.warn li  {
+background:url("/images/infoman/licence-warn.gif") 0px 5px no-repeat;
+margin-left:12px;
+margin-right:12px;
+padding: 5px 0px 10px 40px;
+line-height:200%;
+
+}
+
+ul.exempt {
+line-height:200%;
+
+}
+
+p	{
+padding: 12px 20px 0px;
+}
+
+h1	{
+padding: 12px 20px 0px;
+}
+
+h2	{
+padding: 12px 20px 0px;
+}
+
+h3	{
+padding: 12px 20px 0px;
+}
+
+h3.exempt {
+background:url("/static/images/licence-exempt.gif") 0px 5px no-repeat;
+margin: 35px 12px 0;
+padding: 5px 0px 0 40px;
+line-height:200%;
+}
+
+#footer-bar {
+    background-color: #EEEEEE;
+	border-top: 4px solid #D9D9D9;
+    clear: both;
+    font-size: 1em;
+    padding: 12px 0;
+	margin-top: 24px;
+
+
