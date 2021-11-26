@@ -35,10 +35,11 @@ padding:20px 20px 0px 80px;
 background:url("/images/global/body-bg.jpg") repeat scroll center top transparent;
 margin:0px auto;
 padding:0px 14px 100px 14px;
-width:960px;
+max-width:960px;
+}
 
-
-
+img {
+    max-width: 100%;
 }
 
 
