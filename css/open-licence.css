@@ -28,7 +28,10 @@ padding:20px 20px 0px 80px;
 
 #tna-logo-holder {
     margin-left: 20px;
-    margin-top: 20px;
+}
+
+.tna-logo-holder {
+    margin-left: 20px;
 }
 
 #licence-logo-holder	{
@@ -45,7 +48,7 @@ padding:20px 20px 0px 80px;
     .tna-logo-holder {
         float: right;
         text-align: right;
-        margin-left: 160px;
+        margin-left: 150px;
         margin-top: 20px;
     }
 
@@ -66,10 +69,11 @@ padding:20px 20px 0px 80px;
 }
 
 #license  {
-background:url("/images/global/body-bg.jpg") repeat scroll center top transparent;
-margin:0px auto;
-padding:0px 14px 100px 14px;
-max-width:960px;
+    border-left: 4px solid #ccc;
+    border-right: 4px solid #ccc;
+    margin:0px auto;
+    padding:0px 14px 100px 14px;
+    max-width:960px;
 }
 
 img {
