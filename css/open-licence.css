@@ -19,16 +19,50 @@ padding:0 !important;
 
 }
 
-#licence-logo-holder	{
-float:left;
-padding:20px 0px 0px 20px;
-}
-
-#tna-logo-holder, .tna-logo-holder {
+ #ogl-logo-holder {
 float:right;
 text-align:right;
 padding:20px 20px 0px 80px;
 
+}
+
+#tna-logo-holder {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#licence-logo-holder	{
+    padding:20px 0px 0px 20px;
+}
+
+@media only screen and (min-width: 987px) {
+    #tna-logo-holder {
+        float:right;
+        text-align:right;
+        padding:20px 20px 0px 80px;
+    }
+
+    .tna-logo-holder {
+        float: right;
+        text-align: right;
+        margin-left: 160px;
+        margin-top: 20px;
+    }
+
+    #licence-logo-holder {
+        float: left;
+    }
+}
+
+#open-licence-logo {
+    width: 100%;
+    max-width: 500px;
+}
+
+.back-to-tna {
+    display: block;
+    text-align: left;
+    margin-left: 12px;
 }
 
 #license  {
