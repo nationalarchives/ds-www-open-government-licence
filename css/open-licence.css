@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: ffffff;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  line-height: 150%;
+  margin: 0px auto;
+}
+
+#hdr {
+  background-color: #ffffff;
+  clear: both;
+  display: inline-block;
+  margin: 6px 0 !important;
+  padding: 0 !important;
+}
+
+#ogl-logo-holder {
+  float: right;
+  text-align: right;
+  padding: 20px 20px 0px 80px;
+}
+
+#tna-logo-holder {
+  margin-left: 20px;
+}
+
+.tna-logo-holder {
+  margin-left: 20px;
+}
+
+#licence-logo-holder {
+  padding: 20px 0px 0px 20px;
+}
+
+@media only screen and (min-width: 987px) {
+  #tna-logo-holder {
+    float: right;
+    text-align: right;
+    padding: 20px 20px 0px 80px;
+  }
+
+  .tna-logo-holder {
+    float: right;
+    text-align: right;
+    margin-left: 140px;
+    margin-top: 20px;
+  }
+
+  #licence-logo-holder {
+    float: left;
+  }
+}
+
+#open-licence-logo {
+  width: 100%;
+  max-width: 500px;
+}
+
+.back-to-tna {
+  display: block;
+  text-align: left;
+  margin-left: 12px;
+}
+
+@media only screen and (min-width: 1010px) {
+  #license {
+    border-left: 4px solid #ccc;
+    border-right: 4px solid #ccc;
+  }
+}
+
+#license {
+  margin: 0px auto;
+  padding: 0px 14px 100px 14px;
+  max-width: 960px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#back-to-tna {
+  background-color: #fff;
+  margin: 5px auto;
+  padding: 10px 20px 10px 10px;
+  text-align: right;
+  width: 740px;
+}
+
+ul.tick {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.tick li {
+  background: url("/images/infoman/licence-tick.gif") 0px 5px no-repeat;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 5px 0px 10px 40px;
+  line-height: 200%;
+}
+
+ul.redex {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.redex li {
+  background: url("/images/infoman/licence-redex.gif") 0px 5px no-repeat;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 5px 0px 10px 40px;
+  line-height: 200%;
+}
+
+ul.warn {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.warn li {
+  background: url("/images/infoman/licence-warn.gif") 0px 5px no-repeat;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 5px 0px 10px 40px;
+  line-height: 200%;
+}
+
+ul.exempt {
+  line-height: 200%;
+}
+
+p {
+  padding: 12px 20px 0px;
+}
+
+h1 {
+  padding: 12px 20px 0px;
+}
+
+h2 {
+  padding: 12px 20px 0px;
+}
+
+h3 {
+  padding: 12px 20px 0px;
+}
+
+#footer-bar {
+  background-color: #eeeeee;
+  border-top: 4px solid #d9d9d9;
+  clear: both;
+  font-size: 1em;
+  padding: 12px 0;
+  margin-top: 24px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
