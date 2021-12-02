@@ -1,2 +1,7 @@
-web.config
-**/google*
+*.config
+*.tmp
+*.bak
+cache/
+*.swp
+*.swn
+.DS_Store
