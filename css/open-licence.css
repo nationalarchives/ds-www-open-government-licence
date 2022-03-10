@@ -97,7 +97,7 @@ ul.tick {
 }
 
 ul.tick li {
-  background: url("/images/infoman/licence-tick.gif") 0px 5px no-repeat;
+  background: url("/images/global/tick.svg") 0px 5px no-repeat;
   margin-left: 12px;
   margin-right: 12px;
   padding: 5px 0px 10px 40px;
@@ -111,7 +111,7 @@ ul.redex {
 }
 
 ul.redex li {
-  background: url("/images/infoman/licence-redex.gif") 0px 5px no-repeat;
+  background: url("/images/global/cross.svg") 0px 5px no-repeat;
   margin-left: 12px;
   margin-right: 12px;
   padding: 5px 0px 10px 40px;
@@ -125,7 +125,7 @@ ul.warn {
 }
 
 ul.warn li {
-  background: url("/images/infoman/licence-warn.gif") 0px 5px no-repeat;
+  background: url("/images/global/warning.svg") 0px 5px no-repeat;
   margin-left: 12px;
   margin-right: 12px;
   padding: 5px 0px 10px 40px;
@@ -180,4 +180,16 @@ h3 {
   margin: 0;
   overflow: visible;
   clip: auto;
+}
+
+.exempt-icon {
+  margin-right: 0.5rem;
+}
+
+a:focus {
+  outline: 5px solid #1d70b8;
+}
+
+#tna-logo-link {
+  display: inline-block;
 }
