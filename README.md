@@ -1,9 +1,9 @@
 # TNA Front end content
 
 ## Contents:
- - Open Government License for public sector information (open-government-licence)
+ - Open Government Licence for public sector information (open-government-licence)
  - Trwydded Llywodraeth Agored ar gyfer gwybodaeth y sector cyhoeddus (open-government-licence-cymraeg)
- - Non-Commercial Government License for public sector information (non-commercial-government-licence)
+ - Non-Commercial Government Licence for public sector information (non-commercial-government-licence)
  - Trwydded Llywodraeth Anfasnachol ar gyfer gwybodaeth y sector cyhoeddus (non-commercial-government-licence-cymraeg)
  - Open Supreme Court Licence (open-supreme-court-licence)
 
@@ -28,9 +28,9 @@
 - English OGL v2: http://localhost:8080/open-government-licence/version/2/default.htm
 - A Welsh OGL v2 does not exist.
 
-- English Non-commercial license v1: http://localhost:8080/non-commercial-government-licence/version/1/default.htm
-- Welsh Non-commercial license v1: http://localhost:8080/non-commercial-government-licence-cymraeg/version/1/default.htm
+- English Non-commercial licence v1: http://localhost:8080/non-commercial-government-licence/version/1/default.htm
+- Welsh Non-commercial licence v1: http://localhost:8080/non-commercial-government-licence-cymraeg/version/1/default.htm
 
-- English Non-commercial license v2: http://localhost:8080/non-commercial-government-licence/version/2/default.htm
-- Welsh Non-commercial license v2: http://localhost:8080/non-commercial-government-licence-cymraeg/version/2/default.htm
+- English Non-commercial licence v2: http://localhost:8080/non-commercial-government-licence/version/2/default.htm
+- Welsh Non-commercial licence v2: http://localhost:8080/non-commercial-government-licence-cymraeg/version/2/default.htm
 
