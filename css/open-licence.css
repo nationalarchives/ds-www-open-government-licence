@@ -181,3 +181,31 @@ h3 {
   overflow: visible;
   clip: auto;
 }
+
+.research-banner {
+  background-color: #fbe2bc;
+  border-bottom: 1px solid rgb(0 0 0 /0.15);
+}
+.research-banner__inner {
+  max-width: 908px;
+  margin: 0 auto;
+  padding: 2px 40px 12px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.research-banner__title {
+  margin: 10px 0 0;
+  padding: 0 5px;
+  line-height: 1.5;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  display: inline-block;
+}
+.research-banner__body {
+  margin: 10px 0 0;
+  padding: 0;
+  flex: 1;
+  font-size: 1.25em;
+}
